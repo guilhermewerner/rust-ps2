@@ -1,0 +1,18 @@
+[package]
+name = "rust-ps2"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+panic-halt = "0.2.0"
+prussia_rt = { git = "https://github.com/Ravenslofty/prussia" }
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[package.metadata.cargo-xbuild]
+memcpy = true
+sysroot_path = "target/sysroot"
