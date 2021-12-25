@@ -1,5 +1,2 @@
-/target
-
+Binaries/
 Cargo.lock
-
-*.tar.gz
