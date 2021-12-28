@@ -1,0 +1,6 @@
+[build]
+target-dir = "Binaries"
+target = "ps2.json"
+
+[unstable]
+build-std = ["core"]

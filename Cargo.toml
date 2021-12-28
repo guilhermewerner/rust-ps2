@@ -3,6 +3,10 @@ name = "rust-ps2"
 version = "0.1.0"
 edition = "2018"
 
+[[bin]]
+name = "RustPS2"
+path = "Source/Main.rs"
+
 [dependencies]
 panic-halt = "0.2.0"
 prussia_rt = { git = "https://github.com/Ravenslofty/prussia" }
